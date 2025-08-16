@@ -8,22 +8,27 @@ header {
        background-color: deepskyblue;
        text-align: center;
 }
+
 #pigs {
        background-color: white;
-       border: 20px;
-       padding: 10px;
-;
 }
+
 .images {
-       width: 100%;
+       position: relative;
+       background-size: cover;
+       height: 100vh;
 }
+
 #first {
        text-align: center;
 }
+
 #hideaways {
 }
+
 #food {
 }
+
 .button {
        background-color: blueviolet;
        color: white;
