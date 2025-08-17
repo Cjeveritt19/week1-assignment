@@ -4,8 +4,30 @@
     box-sizing: border-box;
 }
 
-img {
-    
+header {
+    text-align: center;
+    background-color: rgba(100, 148, 237, 0.664);
 }
 
+nav {
+    flex-wrap: wrap;
+    align-items: center;
+    border: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    color: blueviolet;
+    flex:33.3%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
 
