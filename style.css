@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 header {
@@ -16,18 +16,21 @@ nav {
 }
 
 .image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     position: relative;
-    text-align: center;
-    color: blueviolet;
-    flex:33.3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 .bottom-right {
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    right: 8px;
+    background-color: rgba(100, 148, 237, 0.788);
+}
+
+a {
+    background-color: rgba(255, 192, 203, 0.733);
 }
 
