@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 
@@ -15,11 +14,14 @@ header {
     position:relative;
     text-align: center;
     background-color: rgba(100, 148, 237, 0.664);
+    flex-direction: row;
 }
 
 nav {
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
+    position: relative;
     border: 10px;
 }
 
