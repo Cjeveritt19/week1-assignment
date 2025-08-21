@@ -71,6 +71,7 @@ a:hover{
     top: 8px;
     left: 16px;
     background-color: rgba(100, 148, 237, 0.774);
+    font-size: larger;
 }
 
 button {
